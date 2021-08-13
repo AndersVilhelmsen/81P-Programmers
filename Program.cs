@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using basicProgramming;
 
 //      Velkommen til min afsluttende opgave i programmering i grundforløb 2
 //      Opgaven er lavet af Anders Vilhelmsen
@@ -29,6 +29,8 @@ namespace TestD45AV
                     "\n\t\t4.2: Gæt et tal" +
                     "\n\t\t5: Lommeregner" +
                     "\n\t\t6: Fuglevægt" +
+                    "\n\t\t7: GP" +
+
                     "\n\n\t\t(Q for quit)");
                 Userinput = Console.ReadLine();
 
@@ -80,6 +82,11 @@ namespace TestD45AV
                             break;
                         }
 
+                    case "7":
+                        {
+                            Opgave7.Start();
+                            break;
+                        }
 
                     default:
                         {

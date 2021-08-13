@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TestD45AV
 {
-    public class Opgave1
+    class Opgave1
     {
 
         //Opgave1 1 - parkeringsplads
